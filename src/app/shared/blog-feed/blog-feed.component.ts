@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import data from 'src/assets/posts.json';
+import data from 'src/assets/files/posts.json';
 
 @Component({
   selector: 'app-blog-feed',

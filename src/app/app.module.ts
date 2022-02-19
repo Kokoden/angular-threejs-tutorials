@@ -5,9 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomepageModule } from './homepage/homepage.module';
 import { NavbarComponent } from './navbar/navbar.component';
+import { AngularComponent } from './angular/angular.component';
+import { ThreejsComponent } from './threejs/threejs.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent],
+  declarations: [AppComponent, NavbarComponent, AngularComponent, ThreejsComponent],
   imports: [BrowserModule, AppRoutingModule, HomepageModule],
   providers: [],
   bootstrap: [AppComponent],
