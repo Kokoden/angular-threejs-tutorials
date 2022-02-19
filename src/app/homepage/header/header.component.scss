@@ -1,0 +1,37 @@
+header {
+  height: 50vh;
+  width: 100%;
+  background: black;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
+    0 1px 18px 0 rgb(0 0 0 / 12%);
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 125px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+    }
+
+    .green {
+      color: #c9e42c;
+    }
+
+    p {
+      font-size: 1rem;
+      max-width: 400px;
+      text-align: center;
+    }
+  }
+}
