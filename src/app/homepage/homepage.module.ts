@@ -5,10 +5,16 @@ import { HomepageMainComponent } from './homepage-main/homepage-main.component';
 import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HomepageRoutingModule } from './homepage-routing.module';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [HeaderComponent, HomepageMainComponent, HeaderNavbarComponent],
-  imports: [CommonModule, HttpClientModule, HomepageRoutingModule],
+  imports: [
+    CommonModule,
+    HttpClientModule,
+    HomepageRoutingModule,
+    SharedModule,
+  ],
   exports: [HomepageMainComponent],
 })
 export class HomepageModule {}

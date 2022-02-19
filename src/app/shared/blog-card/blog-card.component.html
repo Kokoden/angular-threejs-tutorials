@@ -1,0 +1,10 @@
+<div class="card">
+  <ul class="tags">
+    <li *ngFor="let tag of post.tags" [ngClass]="tag">
+      {{ tag }}
+    </li>
+  </ul>
+  <h2>{{ post.title }}</h2>
+  <p>{{ post.preview }}</p>
+  <p class="author">{{ post.author }}</p>
+</div>

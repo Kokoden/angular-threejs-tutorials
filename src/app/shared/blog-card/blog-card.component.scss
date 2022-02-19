@@ -1,0 +1,49 @@
+.card {
+  width: 300px;
+  padding: 5px;
+  cursor: pointer;
+  margin-bottom: 30px;
+
+  h2 {
+    margin: 0;
+  }
+
+  p {
+    color: #738a94;
+    font-size: 16px;
+    margin: 15px 0;
+  }
+
+  .author {
+    color: white;
+    font-size: 500;
+    margin: 0;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+
+    li {
+      background-color: grey;
+      padding: 5px 15px;
+      border-radius: 20px;
+      margin-right: 10px;
+      color: black;
+    }
+
+    .Angular {
+      color: rgb(34, 46, 3);
+      background-color: #c9e42c;
+    }
+
+    .Threejs {
+      color: rgb(0, 51, 5);
+      background-color: rgb(27, 158, 38);
+    }
+  }
+}
