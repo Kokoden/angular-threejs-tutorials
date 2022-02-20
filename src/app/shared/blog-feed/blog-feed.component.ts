@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import data from 'src/assets/files/posts.json';
 
 @Component({
@@ -7,7 +7,7 @@ import data from 'src/assets/files/posts.json';
   styleUrls: ['./blog-feed.component.scss'],
 })
 export class BlogFeedComponent implements OnInit {
-  blogs = data;
+  @Input() feed = data;
   constructor() {}
 
   ngOnInit(): void {}

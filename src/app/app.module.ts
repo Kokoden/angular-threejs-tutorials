@@ -7,10 +7,16 @@ import { HomepageModule } from './homepage/homepage.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AngularComponent } from './angular/angular.component';
 import { ThreejsComponent } from './threejs/threejs.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, AngularComponent, ThreejsComponent],
-  imports: [BrowserModule, AppRoutingModule, HomepageModule],
+  declarations: [
+    AppComponent,
+    NavbarComponent,
+    AngularComponent,
+    ThreejsComponent,
+  ],
+  imports: [BrowserModule, AppRoutingModule, HomepageModule, SharedModule],
   providers: [],
   bootstrap: [AppComponent],
 })

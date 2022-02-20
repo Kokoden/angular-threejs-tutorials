@@ -1,20 +1,32 @@
 [
   {
     "id": "1",
-    "title": "Sample Text 1",
-    "preview": "This is a preview of the blog post. Hopefully it's long enough to be two sentences long.",
+    "title": "Les bases d'Angular",
+    "preview": "Une petite explication des different notions dans Angular et comment commencer un projet.",
     "tags": ["Angular"]
   },
   {
     "id": "2",
-    "title": "Sample Text 2",
-    "preview": "This is a preview of the blog post. Hopefully it's long enough to be two sentences long.",
+    "title": "Les bases de Three.js",
+    "preview": "Une petite explication des different notions dans Three.js et comment implémenter une scéne.",
     "tags": ["Threejs"]
   },
   {
     "id": "3",
-    "title": "Sample Text 3",
-    "preview": "This is a preview of the blog post. Hopefully it's long enough to be two sentences long.",
+    "title": "Objets et shaders",
+    "preview": "Explication basique des shaders dans Three.js et comment importer les objets 3D.",
+    "tags": ["Threejs"]
+  },
+  {
+    "id": "4",
+    "title": "Les directives Angular: NgFor, NgIF et NgClass",
+    "preview": "Des directives utiles qu'on peut utiliser pour simplifier la vie",
+    "tags": ["Angular"]
+  },
+  {
+    "id": "5",
+    "title": "Resources utiles",
+    "preview": "Quand les explications de merde d'Eden ne suffisent pas.",
     "tags": ["Angular", "Threejs"]
   }
 ]
