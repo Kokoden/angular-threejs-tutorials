@@ -1,0 +1,12 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  markdown {
+    min-width: 300px;
+    width: 90vw;
+    max-width: 900px;
+  }
+}

@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 interface BlogPreview {
   id: string;
   title: string;
@@ -17,7 +18,15 @@ export class BlogCardComponent implements OnInit {
     preview: `This is a preview of the blog post. Hopefully it's long enough to be two sentences long.`,
     tags: ['Angular', 'Threejs'],
   };
-  constructor() {}
+  constructor(private router: Router) {}
 
   ngOnInit(): void {}
+
+  goToPage(tag: string): void {
+    this.router.navigate([tag.toLocaleLowerCase()]);
+  }
+
+  goToPost(id: string): void {
+    this.router.navigate(['posts/' + id]);
+  }
 }

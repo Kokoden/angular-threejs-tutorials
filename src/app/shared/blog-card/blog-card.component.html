@@ -1,8 +1,8 @@
-<div class="card">
+<div class="card" (click)="goToPost(post.id)">
   <h2>{{ post.title }}</h2>
   <p>{{ post.preview }}</p>
   <ul class="tags">
-    <li *ngFor="let tag of post.tags" [ngClass]="tag">
+    <li *ngFor="let tag of post.tags" [ngClass]="tag" (click)="goToPage(tag)">
       {{ tag }}
     </li>
   </ul>

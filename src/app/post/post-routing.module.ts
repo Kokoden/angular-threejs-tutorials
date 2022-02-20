@@ -4,8 +4,13 @@ import { PostMainComponent } from './post-main/post-main.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: ':id',
     component: PostMainComponent,
+  },
+  {
+    path: '',
+    redirectTo: '1',
+    pathMatch: 'full',
   },
 ];
 

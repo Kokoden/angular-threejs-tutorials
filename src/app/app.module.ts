@@ -8,6 +8,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AngularComponent } from './angular/angular.component';
 import { ThreejsComponent } from './threejs/threejs.component';
 import { SharedModule } from './shared/shared.module';
+import { PostModule } from './post/post.module';
+import { MarkdownModule } from 'ngx-markdown';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,14 @@ import { SharedModule } from './shared/shared.module';
     AngularComponent,
     ThreejsComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, HomepageModule, SharedModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HomepageModule,
+    SharedModule,
+    PostModule,
+    MarkdownModule.forRoot(),
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
